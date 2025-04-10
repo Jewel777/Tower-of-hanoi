@@ -28,15 +28,15 @@ pip install -r requirements.txt
 
 
 🔍 How It Works
-The towers are represented by three Stack objects.
+The towers are represented by three Stack objects. 
 
 Disks are represented by integers (1 = smallest, N = largest).
 
 The algorithm uses recursion:
 
-Move N-1 disks from source to auxiliary.
+Move N-1 disks from the source to the auxiliary.
 
 Move the largest disk to the destination.
 
-Move N-1 disks from auxiliary to destination.
+Move N-1 disks from the auxiliary to the destination.
 
